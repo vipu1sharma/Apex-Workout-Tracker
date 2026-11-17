@@ -1,0 +1,53 @@
+{
+  "name": "APEX: Minimalist Workout Tracker",
+  "short_name": "APEX",
+  "description": "Track your workout in seconds, not minutes. Fast logging, smart memory, rest timer, and strength analytics.",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#0D0F12",
+  "theme_color": "#0D0F12",
+  "lang": "en",
+  "categories": [
+    "health",
+    "fitness",
+    "lifestyle",
+    "productivity"
+  ],
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Start Workout",
+      "short_name": "Start",
+      "description": "Launch your scheduled workout routine",
+      "url": "/?action=start",
+      "icons": [{ "src": "/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "View Progress",
+      "short_name": "Progress",
+      "description": "View strength progression and PRs",
+      "url": "/?tab=progress",
+      "icons": [{ "src": "/icon-192.png", "sizes": "192x192" }]
+    }
+  ]
+}
